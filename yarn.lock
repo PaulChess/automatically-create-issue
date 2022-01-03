@@ -254,6 +254,11 @@
   resolved "https://registry.npmmirror.com/@types/node/download/@types/node-17.0.6.tgz#cc1589c9ee853b389e67e8fb4384e0f250a139b9"
   integrity sha512-+XBAjfZmmivILUzO0HwBJoYkAyyySSLg5KCGBDFLomJo0sV6szvVLAf4ANZZ0pfWzgEds5KmGLG9D5hfEqOhaA==
 
+"@vercel/ncc@^0.33.1":
+  version "0.33.1"
+  resolved "https://registry.npmmirror.com/@vercel/ncc/download/@vercel/ncc-0.33.1.tgz#b240080a3c1ded9446a30955a06a79851bb38f71"
+  integrity sha512-Mlsps/P0PLZwsCFtSol23FGqT3FhBGb4B1AuGQ52JTAtXhak+b0Fh/4T55r0/SVQPeRiX9pNItOEHwakGPmZYA==
+
 aggregate-error@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/aggregate-error/download/aggregate-error-3.1.0.tgz?cache=0&sync_timestamp=1618681553608&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faggregate-error%2Fdownload%2Faggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
