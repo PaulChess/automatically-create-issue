@@ -9,12 +9,16 @@ const templates = `
   - [ ] TODO1.
 
   ## WorkLog
+  1. 工作记录1
 
   ## Knowledge
+  暂无
 
   ## Questions
+  暂无
 
   ## Review
+  暂无
 `;
 
 function getTitle() {
