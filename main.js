@@ -22,7 +22,10 @@ const templates = `
 `;
 
 function getTitle() {
-  return dayjs().format('YYYY-MM-DD');
+  // 运行环境是 UTC 时区
+  // 需要转换成 中国时区
+  // 中国时区 = UTC时区 + 8小时
+  return `【每日工作】${dayjs().add("8", "hour").format('YYYY-MM-DD')}`;
 }
 
 const TOKEN = core.getInput('TOKEN');
