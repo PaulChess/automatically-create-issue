@@ -1,7 +1,7 @@
 on:
   push:
   schedule:
-    - cron: '41 9 * * *'
+    - cron: '0 23 * * *' # 北京时间早上7点自动创建
 
 jobs:
   create_issue:
