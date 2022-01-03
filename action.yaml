@@ -1,0 +1,10 @@
+name: 'automatically create issue'
+description: 'automatically create issue'
+# inputs:
+#   who-to-greet:  # id of input
+#     description: 'Who to greet'
+#     required: true
+#     default: 'World'
+runs:
+  using: 'node12'
+  main: 'main.js'

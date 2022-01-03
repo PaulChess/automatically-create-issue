@@ -1,0 +1,12 @@
+{
+  "name": "automatically-create-issue",
+  "version": "1.0.0",
+  "description": "create issue automatically",
+  "main": "main.js",
+  "repository": "git@github.com:PaulChess/automatically-create-issue.git",
+  "author": "paulChess <sjq15251852316@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "octokit": "^1.7.1"
+  }
+}
