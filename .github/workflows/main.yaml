@@ -1,5 +1,4 @@
 on:
-  push:
   schedule:
     - cron: '0 23 * * *' # 北京时间早上7点自动创建
 

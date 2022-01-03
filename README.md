@@ -54,7 +54,6 @@ runs:
 由于node各个版本的使用上有差异，因此需要使用 `@vercel/ncc` 这个库做一下编译，且每次有代码改动的时候都要记得做一次编译。
 
 ```json
-// package.json
 {
   "scripts": {
     "build": "ncc build index.js --license licenses.txt"
@@ -143,7 +142,6 @@ const octokit = new Octokit({
 ```YAML
 # .github/worflows/main.yaml
 on:
-  push:
   schedule:
     - cron: '0 23 * * *' # 北京时间早上7点自动创建
 ```
@@ -163,5 +161,7 @@ octokit.rest.issues.create({
   body: templates
 });
 ```
+
+### 最后
 
 上述文字是看过崔大佬视频加以成功实践后的总结，原视频地址如下: https://www.bilibili.com/video/BV1F34y1U7JT?spm_id_from=333.999.0.0
