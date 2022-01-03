@@ -1,10 +1,9 @@
 name: 'automatically create issue'
 description: 'automatically create issue'
-# inputs:
-#   who-to-greet:  # id of input
-#     description: 'Who to greet'
-#     required: true
-#     default: 'World'
+inputs:
+  TOKEN:  # id of input
+    description: 'secret token'
+    required: true
 runs:
   using: 'node12'
   main: 'dist/index.js'

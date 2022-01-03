@@ -6,8 +6,6 @@ jobs:
     name: create issue automatically
     steps:
       - name: first step
-        id: first
         uses: PaulChess/automatically-create-issue@main
-        # with:
-        #   who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
+        with:
+          TOKEN: ${{ secrets.TOKEN }}

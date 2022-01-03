@@ -10,6 +10,7 @@
   "author": "paulChess <sjq15251852316@163.com>",
   "license": "MIT",
   "dependencies": {
+    "@actions/core": "^1.6.0",
     "octokit": "^1.7.1"
   },
   "devDependencies": {

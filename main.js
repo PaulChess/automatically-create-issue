@@ -1,6 +1,7 @@
 const {
   Octokit
 } = require('octokit');
+const core = require('@actions/core');
 
 const templates = `
   ## Todos
@@ -8,8 +9,10 @@ const templates = `
   ## WorkLog
 `
 
+const TOKEN = core.getInput('TOKEN');
+
 const octokit = new Octokit({
-  auth: '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'
+  auth: TOKEN
 });
 
 octokit.rest.issues.create({
