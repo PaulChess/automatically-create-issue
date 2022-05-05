@@ -1,7 +1,6 @@
-# on:
-#   schedule:
-#     - cron: '0 23 * * *' # 北京时间早上7点自动创建
-on: [push]
+on:
+  schedule:
+    - cron: '0 23 * * *' # 北京时间早上7点自动创建
 
 jobs:
   create_issue:
